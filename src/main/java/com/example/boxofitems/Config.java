@@ -45,8 +45,11 @@ public class Config
 
     private static boolean validateItemName(final Object obj)
     {
-        return obj instanceof final String itemName && ForgeRegistries.ITEMS.containsKey(ResourceLocation.withDefaultNamespace(itemName));
+        if (!(obj instanceof String s)) return false;
+        ResourceLocation id = ResourceLocation.tryParse(s);
+        return id != null && ForgeRegistries.ITEMS.containsKey(id);
     }
+
 
     @SubscribeEvent
     static void onLoad(final ModConfigEvent event)
@@ -57,7 +60,9 @@ public class Config
 
         // convert the list of strings into a set of items
         items = ITEM_STRINGS.get().stream()
-                .map(itemName -> ForgeRegistries.ITEMS.getValue(ResourceLocation.withDefaultNamespace(itemName)))
+                .map(ResourceLocation::tryParse)
+                .filter(id -> id != null && ForgeRegistries.ITEMS.containsKey(id))
+                .map(ForgeRegistries.ITEMS::getValue)
                 .collect(Collectors.toSet());
     }
 }
