@@ -11,7 +11,10 @@ public class ModItems {
     public static  final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BoxOfItems.MODID);
 
-    public static final RegistryObject<Item> JegorStone = ITEMS.register("jegorstone",
+    public static final RegistryObject<Item> BeeCat = ITEMS.register("beecat",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RawBeeCat = ITEMS.register("rawbeecat",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

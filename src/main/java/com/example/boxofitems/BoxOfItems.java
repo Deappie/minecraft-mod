@@ -1,5 +1,6 @@
 package com.example.boxofitems;
 
+import com.example.boxofitems.item.ModCreativeModTabs;
 import com.example.boxofitems.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -42,6 +43,8 @@ public class BoxOfItems
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
@@ -66,7 +69,8 @@ public class BoxOfItems
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.JegorStone);
+            event.accept(ModItems.BeeCat);
+            event.accept(ModItems.RawBeeCat);
         }
     }
 
