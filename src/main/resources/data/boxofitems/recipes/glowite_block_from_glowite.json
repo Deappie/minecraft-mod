@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "boxofitems:glowite"
+    }
+  },
+  "result": {
+    "item": "boxofitems:glowite_block"
+  }
+}

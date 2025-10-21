@@ -19,10 +19,6 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GLOWITE.get()))
                     .title(Component.translatable("creativetab.box_of_items_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.BeeCat.get());
-                        pOutput.accept(ModItems.RawBeeCat.get());
-
-
                         pOutput.accept(ModItems.GLOWITE.get());
 
                         pOutput.accept(ModBlocks.GLOWITE_BLOCK.get());
