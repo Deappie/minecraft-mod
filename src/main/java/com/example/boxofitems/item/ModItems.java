@@ -8,13 +8,16 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static  final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BoxOfItems.MODID);
 
     public static final RegistryObject<Item> BeeCat = ITEMS.register("beecat",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RawBeeCat = ITEMS.register("rawbeecat",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GLOWITE = ITEMS.register("glowite",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

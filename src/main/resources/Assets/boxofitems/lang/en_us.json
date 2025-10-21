@@ -1,6 +1,9 @@
 {
   "item.boxofitems.beecat": "Bee Cat",
   "item.boxofitems.rawbeecat": "Raw Bee Cat",
-  "creativetab.boxofitems": "Box Of Items"
+  "item.boxofitems.glowite": "Glowite",
 
+  "block.boxofitems.glowite_block": "Block of Glowite",
+
+  "creativetab.box_of_items_tab": "Box Of Items"
 }
