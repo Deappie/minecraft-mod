@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.GLOWITE.get());
 
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
                         pOutput.accept(ModBlocks.GLOWITE_BLOCK.get());
 
                         pOutput.accept(ModBlocks.GLOWITE_ORE.get());
