@@ -22,6 +22,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.GLOWITE.get());
 
                         pOutput.accept(ModBlocks.GLOWITE_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.GLOWITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_GLOWITE_ORE.get());
+                        pOutput.accept(ModBlocks.SAND_GLOWITE_ORE.get());
+                        pOutput.accept(ModBlocks.GRAVEL_GLOWITE_ORE.get());
                     })
                     .build());
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "boxofitems:block/gravel_glowite_ore"
+  }
+}
