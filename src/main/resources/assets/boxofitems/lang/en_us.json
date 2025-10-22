@@ -2,12 +2,16 @@
   "item.boxofitems.glowite": "Glowite",
 
   "item.boxofitems.metal_detector": "Metal Detector",
+  "item.boxofitems.strawberry": "Strawberry",
+  "item.boxofitems.pine_cone": "Pine Cone",
 
   "block.boxofitems.glowite_block": "Block of Glowite",
   "block.boxofitems.glowite_ore": "Glowite Ore",
   "block.boxofitems.deepslate_glowite_ore": "Deepslate Glowite Ore",
   "block.boxofitems.gravel_glowite_ore": "Gravel Glowite Ore",
   "block.boxofitems.sand_glowite_ore": "Sand Glowite Ore",
+
+  "block.boxofitems.sound_block": "Sound Block",
 
   "creativetab.box_of_items_tab": "Box Of Items"
 }

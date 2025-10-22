@@ -1,6 +1,7 @@
 package com.example.boxofitems.blocks;
 
 import com.example.boxofitems.BoxOfItems;
+import com.example.boxofitems.blocks.custom.SoundBlock;
 import com.example.boxofitems.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -36,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SAND_GLOWITE_ORE = registerBlock("sand_glowite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.SAND)
                     .strength(1.25f).requiresCorrectToolForDrops(), UniformInt.of(1, 4)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 
