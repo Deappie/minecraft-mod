@@ -13,5 +13,9 @@
 
   "block.boxofitems.sound_block": "Sound Block",
 
-  "creativetab.box_of_items_tab": "Box Of Items"
+  "creativetab.boxofitems.tab": "Box Of Items",
+
+  "tooltip.boxofitems.metal_detector.tooltip": "This is a tooltip for metal detector!!!",
+  "tooltip.boxofitems.sound_block.tooltip": "It makes sound if you click on it"
+
 }

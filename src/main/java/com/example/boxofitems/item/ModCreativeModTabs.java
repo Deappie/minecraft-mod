@@ -17,7 +17,7 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> BOX_OF_ITEMS_TAB = CREATIVE_MODE_TABS.register(
             "boxofitems",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GLOWITE.get()))
-                    .title(Component.translatable("creativetab.box_of_items_tab"))
+                    .title(Component.translatable("creativetab.boxofitems.tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.GLOWITE.get());
 
