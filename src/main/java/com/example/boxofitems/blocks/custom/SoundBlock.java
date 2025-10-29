@@ -34,7 +34,7 @@ public class SoundBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
-        pTooltip.add(Component.literal("tooltip.boxofitems.sound_block.tooltip"));
+        pTooltip.add(Component.translatable("tooltip.boxofitems.sound_block.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltip, pFlag);
     }
 }

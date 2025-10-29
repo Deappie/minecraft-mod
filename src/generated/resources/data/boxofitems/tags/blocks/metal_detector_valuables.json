@@ -1,0 +1,9 @@
+{
+  "values": [
+    "boxofitems:glowite_ore",
+    "boxofitems:deepslate_glowite_ore",
+    "boxofitems:gravel_glowite_ore",
+    "boxofitems:sand_glowite_ore",
+    "#forge:ores"
+  ]
+}

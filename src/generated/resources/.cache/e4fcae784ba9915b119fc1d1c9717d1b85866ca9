@@ -1,0 +1,7 @@
+// 1.20.1	2025-10-29T14:19:16.3288354	Tags for minecraft:block mod id boxofitems
+5a395209f33aa60c4906c2f1bd9f631b29daa965 data/boxofitems/tags/blocks/metal_detector_valuables.json
+47f49941879e61fc1608478b8111f29a4186607e data/forge/tags/blocks/needs_netherite_tool.json
+3f213cbd99a8944966bdb2b5ccac7cd6371b89a0 data/minecraft/tags/blocks/mineable/pickaxe.json
+4531a38751fa9fb164db0764e5900fcd5434d398 data/minecraft/tags/blocks/mineable/shovel.json
+79579228874a2c77123f9f68a2587832848713cb data/minecraft/tags/blocks/needs_iron_tool.json
+95dea6b7135ef64de1c9c5757cf6996f0600400b data/minecraft/tags/blocks/needs_stone_tool.json
